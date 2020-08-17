@@ -1,0 +1,36 @@
+##################################################################################################################################
+#                                      LEN, SLICE[], COUNT, INDEX, SPLIT, JOIN, CONCATENAR+
+# len(variable)=lenght; [a:b]includes a, not b; var.count(element)=# times element; 
+# var.index(element)=posicion of element; var.split()=cut for ""; GLUE.join(var)=glue elements of a lists <-string; concat ++++
+##################################################################################################################################
+######################################################### Version 2 #########################################################
+mylist = []
+mylist.append(5)
+mylist.append(27)
+mylist.append(3)
+mylist.append(12)
+print(mylist) #append pega el valor en secuandia, siempre en la ultima poisicon de la lista
+
+mylist[1]=12 #reemplaza el objeto de la posicion 1° con el valor 12
+print(mylist)
+mylist.insert(1, 12) #instera un 12 en la posición 1°, los objetos se corren a la derecha desde la posicion
+print(mylist)
+print(mylist.count(12)) #cuenta cuantos 12 hay
+
+print(mylist.index(3)) #regresa la posicion del objeto 3
+print(mylist.count(5)) #cuenta cuantos 5 hay
+
+mylist.reverse() #ordena la lista al reves
+print(mylist)
+mylist.sort() #ordena la lista de menor a mayor
+print(mylist)
+mylist.reverse(mylist.sort()) #ordena la lista mayor a menor?????????? ERROR NO SE LE PUEDE DAR ARGUMENTOS A LA FUNCION REVERSE
+print(mylist)
+
+del mylist[3]
+b=mylist.remove(3) 
+print(b)
+
+lastitem = mylist.pop() #alimina el objeto de la ultima posición
+print(lastitem)
+print(mylist)
