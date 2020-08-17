@@ -18,6 +18,25 @@ lst.remove('pluto')
 first_three = lst[:3]
 
 //# delete, delete a value of the lists, dont creat  a neew list.
-
-
+##############################################################################################
+Welcome back. This lesson,
+you'll learn a bunch of useful methods on lists and strings.
+At the end, you'll be able to read and write code using
+the following methods for lists; append, insert,
+reverse, sort remove, pop,
+and some non-destructive methods, index and count.
+For strings, you'll learn upper, lower,
+count, index, strip and replace.
+At the end of this lesson you'll be able to extend the list
+using either append or concatenate.
+Very importantly, you'll be able to identify whether a method mutates an object,
+or creates a modified copy of it.
+Methods on tuples and strings can never mutate them,
+only make modified copies.
+Some operations on lists mutate them,
+assignment and deletion you saw previously,
+and new methods that we'll talk about it in this lesson append, insert,
+reverse, sort, remove and pop,
+they all mutate lists.
+Good luck. See you after the screen casts. 
 
